@@ -1,0 +1,24 @@
+oniaho@MacBook-Pro workspace % docker run -d --name loop devopsdockeruh/exec_bash_exercise 
+142cd9f7bf19aff98559ac43b63c2f94a1b261370bf87e0bdf88b6ba97fb6186
+toniaho@MacBook-Pro workspace % docker exec -it loop bash                                                                      
+root@142cd9f7bf19:/usr/app# tail -f ./logs.txt 
+Secret message is:
+"Docker is easy"
+Sat, 05 Sep 2020 00:46:41 GMT
+Sat, 05 Sep 2020 00:46:44 GMT
+Sat, 05 Sep 2020 00:46:47 GMT
+Sat, 05 Sep 2020 00:46:50 GMT
+Secret message is:
+"Docker is easy"
+Sat, 05 Sep 2020 00:46:56 GMT
+Sat, 05 Sep 2020 00:46:59 GMT
+Sat, 05 Sep 2020 00:47:02 GMT
+Sat, 05 Sep 2020 00:47:05 GMT
+Secret message is:
+"Docker is easy"
+Sat, 05 Sep 2020 00:47:11 GMT
+Sat, 05 Sep 2020 00:47:14 GMT
+Sat, 05 Sep 2020 00:47:17 GMT
+^C
+root@142cd9f7bf19:/usr/app# 
+
