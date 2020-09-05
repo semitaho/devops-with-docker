@@ -1,1 +1,12 @@
-jeejee
+toniaho@MacBook-Pro part1 % docker ps -a   
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                        PORTS               NAMES
+aa6dadb2b715        phpmyadmin          "/docker-entrypoint.…"   About a minute ago   Exited (0) 2 seconds ago                          trusting_ardinghelli
+95a4227f54e5        tomcat              "catalina.sh run"        4 minutes ago        Up 4 minutes                  8080/tcp            admiring_euler
+8633ff54f59c        postgres            "docker-entrypoint.s…"   8 minutes ago        Exited (1) 8 minutes ago                          tender_easley
+921ed81010e5        mysql               "docker-entrypoint.s…"   8 minutes ago        Exited (1) 8 minutes ago                          reverent_banzai
+d2acd9999458        postgres            "docker-entrypoint.s…"   10 minutes ago       Exited (1) 10 minutes ago                         intelligent_kirch
+7f33831dfeb9        nginx               "/docker-entrypoint.…"   10 minutes ago       Exited (0) 30 seconds ago                         serene_roentgen
+d43e5b6fceba        nginx               "/docker-entrypoint.…"   13 minutes ago       Exited (0) 11 minutes ago                         hardcore_jackson
+c3975d74056f        nginx               "/docker-entrypoint.…"   14 minutes ago       Exited (0) 10 minutes ago                         suspicious_hellman
+2ec9ad3b0fe6        nginx               "/docker-entrypoint.…"   14 minutes ago       Exited (127) 14 minutes ago                       sharp_joliot
+j
