@@ -1,0 +1,8 @@
+toniaho@MacBook-Pro part1 % docker images 
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+toniaho@MacBook-Pro part1 % docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+toniaho@MacBook-Pro part1 % docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+toniaho@MacBook-Pro part1 % 
+
