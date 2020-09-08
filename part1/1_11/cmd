@@ -1,0 +1,17 @@
+touch logs.txt
+docker run -d -p 8000:8000 -v $(pwd)/logs.txt:/logs.txt 1_11
+
+8943f104feac51fd273c7c90836c2a4a61ac5702fb4c4dd88d1d5c8dc106e823
+toniaho@MacBook-Pro 1_11 % tail -f logs.txt 
+[localhost navigation...]
+9/8/2020, 2:25:23 AM: Connection received in root
+
+toniaho@MacBook-Pro 1_11 % docker stop 894
+894
+
+docker run -d -p 8000:8000 -v $(pwd)/logs.txt:/logs.txt 1_11
+1891747eb757b199209ddeeea122c531e983352474c27b82478209ec68decb35
+[localhost havigation...]
+toniaho@MacBook-Pro 1_11 % tail -f logs.txt 
+9/8/2020, 2:25:23 AM: Connection received in root
+9/8/2020, 2:28:52 AM: Connection received in root
