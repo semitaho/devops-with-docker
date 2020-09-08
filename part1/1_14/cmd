@@ -1,0 +1,3 @@
+docker build -t 1_14 .
+docker run -p 3000:3000 1_14
+
