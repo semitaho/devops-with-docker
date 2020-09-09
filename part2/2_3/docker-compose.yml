@@ -1,0 +1,10 @@
+version: '3.5'
+services: 
+  backend:
+    image: 1_12_backend
+    ports: 
+      - 8000:8000
+  frontend:
+    image: 1_12_front
+    ports: 
+      - 5000:5000
