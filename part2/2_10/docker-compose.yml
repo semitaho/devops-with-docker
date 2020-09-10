@@ -5,7 +5,7 @@ services:
     ports: 
       - 6379 
   backend:
-    image: 2_9_backend
+    image: 2_10_backend
     environment: 
       - REDIS=rediscache
       - DB_NAME=backenddb
@@ -15,7 +15,7 @@ services:
     ports: 
       - 8000:8000  
   frontend:
-    image: 2_9_frontend
+    image: 2_10_frontend
     ports: 
       - 5000:5000
   nginx:
