@@ -6,6 +6,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* 	
 COPY backend-example-docker .
 RUN npm install
-# ei ollut tarvetta muuttaa, mutta ei haittaakaan, nyt menevät fronttikutsut ainakin proxystä
 ENV FRONT_URL=http://localhost:5000
 CMD ["npm", "start"]
