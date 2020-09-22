@@ -1,0 +1,4 @@
+oniaho@MacBook-Pro 3_7 % docker images
+REPOSITORY                                                TAG                  IMAGE ID            CREATED             SIZE
+tahoo_new                                                 latest               5c695bb673cc        16 hours ago        494MB
+
